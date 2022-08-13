@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 1% ;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    background-color: lightgreen;
+    width: 30%;
+    height: 400px;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.container button {
+    margin: 1%;
+    border-radius: 10px;
+}
+.container button:hover {
+    background-color: aqua;
+}
